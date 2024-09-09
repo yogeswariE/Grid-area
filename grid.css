@@ -1,0 +1,39 @@
+.container{
+    width: 50%;
+    display:grid;
+    background-color: blueviolet;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    gap: 10px;
+    padding: 10px;
+    margin:15px;
+
+}
+
+.one{
+    background-color: rgb(37, 228, 20);
+     grid-row:span 4;
+}
+.two{
+    background-color: rgb(37, 228, 20);
+    grid-column: 2/4;
+}
+.three{
+    background-color: crimson;
+}
+.four{
+    background-color: orange;
+}
+.five{
+    background-color: crimson;
+}
+.six{
+    background-color: rgb(37, 228, 20);
+    grid-row: span 2;
+}
+.seven{
+    background-color:crimson;
+}
+.eight{
+    background-color: orange;
+}
